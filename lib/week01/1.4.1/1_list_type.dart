@@ -5,4 +5,6 @@ void main() {
   print(blackPinkList);
   print(blackPinkList[0]); //첫 원소 지정
   print(blackPinkList[3]); //마지막 원소 지정
+
+  print(blackPinkList.length); //1길일 반환
 }
