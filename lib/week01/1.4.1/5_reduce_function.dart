@@ -4,5 +4,5 @@ void main() {
     (value, element) => value + ',' + element,
   ); //1리스트를 순회하며 값들을 더합니다.
 
-  print(allMenmabers);
+  print(allMembers);
 }
