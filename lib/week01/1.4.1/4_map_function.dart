@@ -7,5 +7,6 @@ void main(){
 
 print(newBlackPink);
 
-//Iterable을 List로 변환할 때 .toList() 사용
+//Iterable을 List로 다시 변환하고 싶을 때 .toList() 사용
+print(newBlackPink.toList());
 }
