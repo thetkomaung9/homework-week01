@@ -6,5 +6,5 @@ void main() {
   );
 
   print(newList);
-  print(newList.toList()); //
+  print(newList.toList()); //Iterable을 List로 변환할 때 .toList() 사용
 }
