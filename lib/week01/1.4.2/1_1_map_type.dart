@@ -5,4 +5,5 @@ void main() {
     'Hermione Granger': '헤르미온느 그레인저',
   };
   print(dictionary['Harry Poter']);
+  print(dictionary['Hermione Granger']);
 }
