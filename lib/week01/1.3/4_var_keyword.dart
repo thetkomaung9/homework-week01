@@ -3,4 +3,6 @@ void main() {
   print(name);
 
   //변수값 변경 기능
-  name = '꼳든래빗'}
+  name = '꼳든래빗';
+  print(name);
+}
