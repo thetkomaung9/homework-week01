@@ -4,4 +4,5 @@ void main() {
 
   //int - 정수
   int isInt = 10;
+  //double - 실수
 }
