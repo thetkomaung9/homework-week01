@@ -3,5 +3,5 @@ void main() {
 
   //1reduce() 함수와 마찬가지로 각 요소를 순회하며 실행됩니다.
   final allMembers =
-      blackPi
+      blackPinkList.fold<int>(0 , (value , element) => value + element.length)
 }
