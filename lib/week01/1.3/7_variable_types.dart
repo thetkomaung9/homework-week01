@@ -4,6 +4,14 @@ void main() {
 
   //int - 정수
   int isInt = 10;
+
   //double - 실수
   double isDouble = 2.5;
+
+  //bool - 불리언 (true , false)
+  bool isBool = true;
+  print(name);
+  print(isInt);
+  print(isDouble);
+  print(isTrue);
 }
