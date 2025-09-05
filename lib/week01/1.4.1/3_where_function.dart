@@ -4,5 +4,7 @@ void main() {
   final newList = blackPinkList.where(
     (name) => name == '리사' || name == '지수', //'리사' 또는 '지수'만 유지
   );
+
   print(newList);
+  print(newList.toList()); //
 }
