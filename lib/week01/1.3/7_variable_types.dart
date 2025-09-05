@@ -9,7 +9,7 @@ void main() {
   double isDouble = 2.5;
 
   //bool - 불리언 (true , false)
-  bool isBool = true;
+  bool isTrue = true;
   print(name);
   print(isInt);
   print(isDouble);
