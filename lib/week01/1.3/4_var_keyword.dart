@@ -1,7 +1,6 @@
 void main() {
   var name = '코드팩토리';
-  var age = 30;
+  print(name);
 
-  print('Name: $name');
-  print('Age: $age');
-}
+  //변수값 변경 기능
+  name = '}
