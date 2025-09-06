@@ -5,5 +5,6 @@ void main() {
   number ??= 3; //??를 사용하면 기존 값이 null일 때만 값을 지정합니다.
   print(number);
 
-  number ??= 4; //null
+  number ??= 4; //null이 아니므로 3이 유지됩니다.
+  print(number);
 }
