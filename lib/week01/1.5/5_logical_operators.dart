@@ -11,5 +11,6 @@ void main() {
   bool result4 = 12 > 10 || 0 > 1; // 12가 10보다 크거나 0이 1보다 클 때
   print(result4); //true
 
-  bool result5 = (12 > 10); // 12가 10보다 크지 않을 때
+  bool result5 = 12 < 10 || 0 > 1; // 12가 10보다 작거나 0이 1보다 클 때
+  print(result5); //false
 }
