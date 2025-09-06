@@ -5,6 +5,6 @@ void main() {
 
     print(name); //1에러가 없으니 출럭됨
   } catch (e) {
-    //catch
+    //catch는 첫 번째 매개변수에 에러 정보를 전달해줍니다.
   }
 }
