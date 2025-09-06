@@ -1,9 +1,10 @@
-void main(){
-  Map<String, String> dictionary ={
-    'Harry Poter' : '해리포터',
-    'Ron Weasley' : '론 위즐리',
-    'Hermione Granger' : '헤르미온느 그레인저',
+void main() {
+  Map<String, String> dictionary = {
+    'Harry Poter': '해리포터',
+    'Ron Weasley': '론 위즐리',
+    'Hermione Granger': '헤르미온느 그레인저',
   };
 
-  print(dictionary.keys)
+  print(dictionary.keys);
+  //Iterable 변환되기 떼문에 .toList()를
 }
