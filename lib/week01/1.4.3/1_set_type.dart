@@ -3,6 +3,8 @@ void main(){
 
   print(blackPink);
   print(blackPink.contains('로제')); //2 값이 있는지 확인하기
-  print(blackPink.toList(); //3리스트로
+  print(blackPink.toList()); //3리스트로 변환하기
+
+  List<String> blackPink2 = []
 
 }
