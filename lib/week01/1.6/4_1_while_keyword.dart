@@ -1,5 +1,8 @@
-void main(){
+void main() {
   int total = 0;
 
-  while
+  while (total < 10) {
+    total += 1;
+    print(total);
+  }
 }
