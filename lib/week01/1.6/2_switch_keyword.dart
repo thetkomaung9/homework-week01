@@ -12,7 +12,9 @@ void main() {
       print("대기 상태입니다.");
       break;
     case Status.rejected:
-      print("거절됨");
+      print("거절 상태입니다.");
       break;
+    default:
+      print("알 수 없는 상태입니다.");
   }
 }
