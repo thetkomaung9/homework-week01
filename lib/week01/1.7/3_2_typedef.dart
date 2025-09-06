@@ -13,5 +13,8 @@ void main() {
   Operation operation;
   oper(1, 2);
 
-  //subtract() 함수도
+  //subtract() 함수도 Operation에 해당되는
+  //시그니처이므로 oper 변수에 저장 가능
+  oper = subtract;
+  oper(2, 1);
 }
