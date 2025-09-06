@@ -11,4 +11,7 @@ void subtract(int x, int y) {
 void main() {
   //typedf는 일반적인 변수의 type처럼 사용 가능
   Operation operation;
+  oper(1, 2);
+
+  //subtract() 함수도
 }
