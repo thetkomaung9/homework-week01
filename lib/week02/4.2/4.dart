@@ -4,14 +4,11 @@ void main() {
 
   print(name);
   print(age);
+}
 
-  class Idol{
-    final String name;
-    final int age;
+class Idol {
+  final String name;
+  final int age;
 
-    Idol({
-      required this.name,
-      required this.age,
-    });
-  }
+  Idol({required this.name, required this.age});
 }
