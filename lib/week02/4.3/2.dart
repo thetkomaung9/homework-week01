@@ -11,5 +11,14 @@ void switcher(dynamic anything) {
     case [_, _, _]:
       print('match [_, _, _]');
       break;
+    case [int a, int b]:
+      print('match: [int $a, int %b]');
+      break;
+
+    case (String a, int b):
+      print('match: (String: $a, int: $b)');
+      break;
+    default:
+      print('no match');
   }
 }
