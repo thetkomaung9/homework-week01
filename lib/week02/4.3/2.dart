@@ -22,3 +22,5 @@ void switcher(dynamic anything) {
       print('no match');
   }
 }
+void
+}
