@@ -24,5 +24,6 @@ void switcher(dynamic anything) {
 }
 void main(){
   switcher('aaa');
+  switcher([1, 2]);
   switcher(anything)
 }
