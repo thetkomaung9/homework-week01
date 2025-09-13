@@ -1,7 +1,10 @@
-void switcher(dynamic anything){
-  switcher(anything){
-    case'aaa':
-    print('match: aaa');
-    
+void switcher(dynamic anything) {
+  switch (anything) {
+    case 'aaa':
+      print('match: aaa');
+      break;
+
+      case[1, 2]:
+      print(object)
   }
 }
