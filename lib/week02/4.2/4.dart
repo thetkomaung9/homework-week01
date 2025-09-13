@@ -9,6 +9,9 @@ void main() {
     final String name;
     final int age;
 
-    Idol
+    Idol({
+      required this.name,
+      required this.age,
+    });
   }
 }
