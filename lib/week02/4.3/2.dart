@@ -4,7 +4,10 @@ void switcher(dynamic anything) {
       print('match: aaa');
       break;
 
-      case[1, 2]:
-      print(object)
+    case [1, 2]:
+      print('match: [1, 2]');
+      break;
+
+    case [_, _, _]:
   }
 }
