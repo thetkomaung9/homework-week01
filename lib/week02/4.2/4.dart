@@ -4,4 +4,11 @@ void main() {
 
   print(name);
   print(age);
+
+  class Idol{
+    final String name;
+    final int age;
+
+    Idol
+  }
 }
