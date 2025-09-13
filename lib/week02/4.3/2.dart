@@ -1,3 +1,7 @@
 void switcher(dynamic anything){
-  switcher(anything)
+  switcher(anything){
+    case'aaa':
+    print('match: aaa');
+    
+  }
 }
