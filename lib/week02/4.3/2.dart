@@ -22,10 +22,12 @@ void switcher(dynamic anything) {
       print('no match');
   }
 }
-void main(){
+
+void main() {
   switcher('aaa');
   switcher([1, 2]);
   switcher([3, 4, 5]);
   switcher([6, 7]);
-  switcher(anything)
+  switcher(('민지', 19));
+  switcher(8);
 }
