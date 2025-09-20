@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 void main (){
   runApp(
-    Material(
+    MaterialApp(
       home: Scaffold(
         body: Center(
 
