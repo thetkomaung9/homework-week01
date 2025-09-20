@@ -5,7 +5,7 @@ void main(){
     MaterialApp(
 
       home: Scaffold(
-        body: SizeBox(
+        body: SizedBox(
           width: double.infinity,
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -14,9 +14,9 @@ void main(){
               Text('Code'),
               Text('Factory'),
             ],
-          )
-        )
-      )
-    )
-  )
+          ),
+        ),
+      ),
+    ),
+  );
 }
