@@ -6,8 +6,10 @@ void main(){
   runApp(
     MaterialApp(
       home: Scaffold(
-        body: Text(
+        body: Center(
+          child: Text(
           'Hello Code Factory',
+          ),
         ),
       ),
     ),
