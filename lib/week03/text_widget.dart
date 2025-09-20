@@ -6,7 +6,9 @@ void main (){
       home: Scaffold(
         body: Center(
 
-          child: Text('Code Factory'),
+          child: Text(
+            
+          ),
         ),
       ),
     ),
