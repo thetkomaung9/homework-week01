@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget{
           child: ElevatedButton(
             onPressed: (){},
 
-            style: ElevateButton.styleFrom(
+            style: ElevatedButton.styleFrom(
               backgroundColor: Colors.red,
             ),
 
