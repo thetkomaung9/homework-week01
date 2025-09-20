@@ -14,7 +14,10 @@ class MyApp extends StatelessWidget{
           child: TextButton(
             onPressed: () {},
 
-            style: TextButton(onPressed: onPressed, child: child),
+            style: TextButton.styleFrom(
+
+              foregroundColor: Colors.red,
+            ),
           ),
         ),
       ),
