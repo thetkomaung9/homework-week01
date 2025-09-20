@@ -20,6 +20,7 @@ class MyApp extends StatelessWidget{
              child: Text('아웃라인드 버튼'),
         ),
       ),
+      ),
     );
   }
 }
