@@ -8,8 +8,10 @@ void main (){
 
           TextButton(
             onPressed: (){},
+            style: TextButton.styleFrom(
 
-            style: TextButton(onPressed: onPressed, child: child),
+              foregroundColor: Colors.red,
+            ),
           )
           child: Text(
             '코드팩토리',
