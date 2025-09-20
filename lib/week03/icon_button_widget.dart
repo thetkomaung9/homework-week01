@@ -13,7 +13,8 @@ class MyApp extends StatelessWidget{
           child: Icon(
             onPressed:(){},
             icon: Icon(
-              //플
+              //플러터에서 기본으로 제공하는 아이콘입니다.
+              //
             )
           )
         ),
