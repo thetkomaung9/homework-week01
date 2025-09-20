@@ -7,7 +7,9 @@ void main (){
         body: Center(
 
           TextButton(
-            
+            onPressed: (){},
+
+            style: TextButton(onPressed: onPressed, child: child),
           )
           child: Text(
             '코드팩토리',
