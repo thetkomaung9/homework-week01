@@ -12,7 +12,9 @@ class MyApp extends StatelessWidget{
       home: Scaffold(
         body: Center(
           child: TextButton(
-            TextButton()
+            onPressed: () {},
+
+            style: TextButton(onPressed: onPressed, child: child),
           ),
         ),
       ),
