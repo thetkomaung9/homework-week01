@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:myapp/week02/6/main.dart';
 
 void main(){
 
@@ -17,9 +16,10 @@ class MyApp extends StatelessWidget{
             onPressed:(){},
              style: OutlinedButton.styleFrom(
               foregroundColor: Colors.red,
-             )
+             ),
+             child: Text('아웃라인드 버튼'),
         ),
       ),
-    )
+    );
   }
 }
