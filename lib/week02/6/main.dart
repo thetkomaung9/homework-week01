@@ -1,5 +1,18 @@
 import 'package:flutter/material.dart';
 
 void main(){
-  runApp(app)
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessElement{
+  @override
+  Widget build(BuildContext context){
+    return MaterialApp(
+      home: Scaffold(
+        body: Center(
+          child: ,
+        )
+      )
+    )
+  }
 }
