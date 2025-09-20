@@ -13,7 +13,12 @@ class MyApp extends StatelessWidget{
     return MaterialApp(
       home: Scaffold(
         body: Center(
-          child: Gu,
+          child: GestureDetector(
+            onTap:  (){
+              print('on tao');
+              
+            },
+          ),
         ),
       ),
     )
