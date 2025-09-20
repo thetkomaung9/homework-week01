@@ -16,11 +16,27 @@ class MyApp extends StatelessWidget{
           child: GestureDetector(
             onTap:  (){
               print('on tao');
-              
+
             },
+            onDoubleTap: (){
+              print('on double tap');
+
+            },
+
+            onLongPress:(){
+              print('on long press');
+            },
+
+            child: Container(
+              decoration: BoxDecoration(
+                color: Colors.red,
+              ),
+              width: 100.0,
+              height: 100.0,
+            ),
           ),
         ),
       ),
-    )
+    );
   }
 }
