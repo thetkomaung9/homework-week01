@@ -13,18 +13,9 @@ void main (){
               foregroundColor: Colors.red,
 
             ),
-            child: Text('')
-          )
-          child: Text(
-            '코드팩토리',
-            style: TextStyle(
-
-              fontSize: 16.0,
-
-              fontWeight: FontWeight.w700,
-              color: Colors.blue,
-            ),
+            child: Text('택스트 버튼'),
           ),
+          
         ),
       ),
     ),
