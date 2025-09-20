@@ -1,6 +1,7 @@
 Text(
   '코드팩토리',
   style: TextStyle(
-    font
+    fontSize: 16.0,
+    
   )
 )
