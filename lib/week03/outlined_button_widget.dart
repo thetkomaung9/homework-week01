@@ -13,7 +13,8 @@ class MyApp extends StatelessWidget{
     return MaterialApp(
       home: Scaffold(
         body: Center(
-          child: Ou,
+          child: OutlinedButton(
+            onPressed: onPressed, child: child),
         ),
       ),
     )
