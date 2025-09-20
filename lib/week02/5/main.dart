@@ -3,5 +3,11 @@
 //플러터에서 기본 제공해주는 위젯들을 사용할 수 있습니다.
 import 'package:flutter/material.dart';
 void main(){
-  runApp();
+  runApp(
+    MaterialApp(
+      home: Scaffold(
+        body: ,
+      )
+    )
+  );
 }
