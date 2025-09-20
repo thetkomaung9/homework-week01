@@ -15,7 +15,9 @@ class MyApp extends StatelessWidget{
         body: Center(
           child: OutlinedButton(
             onPressed:(){},
-             onPressed, child: child),
+             style: OutlinedButton.styleFrom(
+              foregroundColor: Colors.red,
+             )
         ),
       ),
     )
