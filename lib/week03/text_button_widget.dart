@@ -1,23 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:myapp/week02/6/main.dart';
 
-void main (){
-  runApp(
-    MaterialApp(
-      home: Scaffold(
-        body: Center(
-
-          TextButton(
-            onPressed: (){},
-            style: TextButton.styleFrom(
-
-              foregroundColor: Colors.red,
-
-            ),
-            child: Text('택스트 버튼'),
-          ),
-          
-        ),
-      ),
-    ),
-  );
+void main(){
+  runApp(MyApp());
 }
