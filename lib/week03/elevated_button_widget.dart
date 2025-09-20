@@ -11,7 +11,13 @@ class MyApp extends StatelessWidget{
     return MaterialApp(
       home: Scaffold(
         body: Center(
-          child: ElevatedButton()
+          child: ElevatedButton(
+            onPressed: (){},
+
+            style: ElevateButton.styleFrom(
+              backgroundColor: Color.red,
+            ),
+          )
         ),
       ),
     )
