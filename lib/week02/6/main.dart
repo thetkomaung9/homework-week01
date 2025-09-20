@@ -10,9 +10,9 @@ class MyApp extends StatelessElement{
     return MaterialApp(
       home: Scaffold(
         body: Center(
-          child: ,
-        )
-      )
-    )
+          child: //여기에 예제 코드 잦성하기
+        ),
+      ),
+    );
   }
 }
