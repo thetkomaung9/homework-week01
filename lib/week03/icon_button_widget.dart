@@ -11,7 +11,10 @@ class MyApp extends StatelessWidget{
       home: Scaffold(
         body: Center(
           child: Icon(
-            onPressed
+            onPressed:(){},
+            icon: Icon(
+              //플
+            )
           )
         ),
       ),
