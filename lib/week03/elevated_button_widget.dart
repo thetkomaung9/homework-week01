@@ -17,9 +17,11 @@ class MyApp extends StatelessWidget{
             style: ElevateButton.styleFrom(
               backgroundColor: Color.red,
             ),
-          )
+
+            child: Text('엘리베이티드 버튼'),
+          ),
         ),
       ),
-    )
+    );
   }
 }
