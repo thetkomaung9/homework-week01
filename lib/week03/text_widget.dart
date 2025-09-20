@@ -3,6 +3,6 @@ Text(
   style: TextStyle(
     fontSize: 16.0,
     fontWeight: FontWeight.w700,
-    
-  )
+    color: Colors.bulue,
+  ),
 )
