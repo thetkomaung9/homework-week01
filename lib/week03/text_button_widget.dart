@@ -11,7 +11,9 @@ void main (){
             style: TextButton.styleFrom(
 
               foregroundColor: Colors.red,
+
             ),
+            child: Text('')
           )
           child: Text(
             '코드팩토리',
