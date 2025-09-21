@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:myapp/week03/container_widget.dart';
+
 
 void main(){
   runApp(MyApp());
@@ -21,11 +21,17 @@ class MyApp extends StatelessWidget{
                   color: Colors.blue,
                 ),
 
+              ),
+              Flexible(
+                flex: 1,
+                child: Container(
+                  color: Colors.red,
+                ),
               )
             ],
           ),
         ),
       )
-    )
+    );
   }
 }
