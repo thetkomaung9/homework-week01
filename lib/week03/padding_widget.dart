@@ -13,5 +13,9 @@ class MyApp extends StatelessWidget{
       home: Scaffold(
         body: Center(
           child: Container(
-            color: Col,
+            color: Colors.blue,
+            child: Padding(
+
+              padding: EdgeInset.,
+            ),
           )
