@@ -4,5 +4,5 @@ import 'package:webview_flutter/webview_flutter.dart';
 class HomeScreen extends StatelessWidget{
    WebViewController webViewController = WebViewController()
 
-   ..loadRequest(Uri.parse(uri))
+   ..loadRequest(Uri.parse('https://blog.codefactory.ai'))
 }
