@@ -17,7 +17,10 @@ class MyApp extends StatelessWidget{
               Flexible(
 
                 flex: 1,
-                
+                child: Container(
+                  color: Colors.blue,
+                ),
+
               )
             ],
           ),
