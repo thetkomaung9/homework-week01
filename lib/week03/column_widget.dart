@@ -11,6 +11,9 @@ class ColumnWidgetExample extends StatelessWidget{
         body: SizedBox(
 
           width: double.infinity,
+          child: Column(
+            
+          ),
         ),
       ),
     )
