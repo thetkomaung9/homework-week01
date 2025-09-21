@@ -13,7 +13,16 @@ class MyApp extends StatelessWidget{
         body: Center(
           child: Container(
 
-            
+            decoration: BoxDecoration(
+              color: Colors.red,
+
+              border: Border.all(
+                width:  16.0,
+                color: Colors.black,
+              ),
+
+              borderRadius: : borderRadius.circula
+            ),
           ),
         ),
       ),
