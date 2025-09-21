@@ -10,5 +10,16 @@ class HomeScreen extends StatelessWidget{
 
    HomeScreen({Key? key}) : super(key: key);
 
-   HomeScreen
+   @override
+   Widget build(BuildContext context){
+    return Scaffold(
+
+      appBar: AppBar(
+
+        backgroundColor: Colors.orange,
+
+        title: Text('Code Factory'),
+      )
+    )
+   }
 }
