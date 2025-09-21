@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget{
                 color: Colors.black,
               ),
 
-              borderRadius: : borderRadius.circula
+              borderRadius: : borderRadius.circular(backgroundBlendMode: 16.0)
             ),
           ),
         ),
