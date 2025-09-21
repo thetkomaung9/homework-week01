@@ -20,7 +20,16 @@ class ColumnWidgetExample extends StatelessWidget{
               Container(
                 height: 50.0,
                 width: 50.0,
-              )
+              ),
+              const SizedBox(width: 12.0),
+              Container(
+                height: 50.0,
+                width: 50.0,
+                color: Colors.green,
+
+              ),
+              const SizedBox(width: 12.0),
+              Container()
             ],
           ),
         ),
