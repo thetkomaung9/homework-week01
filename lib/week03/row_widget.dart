@@ -22,7 +22,8 @@ class RowWidgetExample extends StatelessWidget{
                 height: 50.0,
                 width: 50.0,
                 color: Colors.red,
-              )
+              ),
+              
             ],
           )
         ),
