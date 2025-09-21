@@ -6,5 +6,9 @@ class HomeScreen extends StatelessWidget{
 
    ..loadRequest(Uri.parse('https://blog.codefactory.ai'))
 
-   ..setJavaScriptMode(javaScriptMode)
+   ..setJavaScriptMode(JavaScriptMode.unrestricted);
+
+   HomeScreen({Key? key}) : super(key: key);
+
+   HomeScreen
 }
