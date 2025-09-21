@@ -16,6 +16,9 @@ class MyApp extends StatelessWidget{
             color: Colors.blue,
             child: Padding(
 
-              padding: EdgeInset.,
+              padding: EdgeInsets.al(
+                16.0,
+              ),
+              child: ,
             ),
           )
