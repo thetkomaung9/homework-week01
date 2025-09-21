@@ -23,7 +23,11 @@ class SplashScreen extends StatelessWidget{
                     'lib/week03/assets/logo.png',
                     width: 200,
                   ),
-                  Cir
+                  CircularProgressIndicator(
+                    valueColor: AlwaysStoppedAnimation(
+                      Colors.white,
+                    ),
+                  ),
                 ],
               )
             ],
@@ -31,6 +35,6 @@ class SplashScreen extends StatelessWidget{
         )
         ),
       ),
-    )
+    
   }
 }
