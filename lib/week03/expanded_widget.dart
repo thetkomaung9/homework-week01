@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:myapp/week03/icon_button_widget.dart';
 
 void main(){
   runApp(MyApp());
@@ -12,11 +11,25 @@ class MyApp extends StatelessWidget{
       home: Scaffold(
         body: Center(
           child: Column(
-            children: [],
+            children: [
+
+              Expanded(
+                child: Container(
+                  color: Colors.blue,
+                ),
+              ),
+
+              Expanded(
+                child: Container(
+                  color: Colors.red,
+                ),
+
+              )
+            ],
           ),
         ),
       ),
-    )
+    );
   }
 
 }
