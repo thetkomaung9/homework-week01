@@ -29,11 +29,15 @@ class ColumnWidgetExample extends StatelessWidget{
 
               ),
               const SizedBox(width: 12.0),
-              Container()
+              Container(
+                height: 50.0,
+                width: 50.0,
+                color: Colors.blue,
+              ),
             ],
           ),
         ),
       ),
-    )
+    );
   }
 }
