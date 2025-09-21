@@ -40,6 +40,6 @@ class RowWidgetExample extends StatelessWidget{
           )
         ),
       )
-    )
+    );
   }
 }
